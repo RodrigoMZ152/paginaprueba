@@ -1,0 +1,43 @@
+body {
+    background-image: url("../img/Galeria/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+}
+#titulo1{
+    font-family: "Audiowide",
+    sans-serif;
+    font-size: 40px;
+    color: azure;
+}
+#panel{
+    width: 100%;
+}
+img{
+    width: 400px;
+}
+input[type="button"] {
+    background: rgb(60, 72, 236);
+    width: 25%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 6px 15px;
+    border: none;
+    cursor: pointer;
+    color: #fffcfc;
+    font-size: 20px;
+    font-family: "Audiowide",
+        sans-serif;
+}
+
+input[type="button"]:hover {
+    background: rgba(233, 91, 91, 0.858);
+    transition: .6s;
+}
+#volver{
+    background-color: brown;
+}
+#volver:hover{
+    background: rgba(84, 19, 19, 0.858);
+    transition: .6s;
+}

@@ -1,0 +1,49 @@
+.formulario {
+    width: 420px;
+    background: #4b2892;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-radius: 10%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Audiowide",
+    sans-serif;
+}
+input[type="button"] {
+    background: rgb(29, 38, 167);
+    width: 60%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 6px 15px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Audiowide",
+    sans-serif;
+}
+
+input[type="button"]:hover {
+    background: rgba(233, 91, 91, 0.858);
+    transition: .6s;
+}
+
+h1{
+    color: #fcf7f7;
+}
+
+body{
+    background-image: url("../img/wall.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 99%;
+}
+img{
+    cursor: pointer;
+    margin-bottom: -655px;
+    
+}

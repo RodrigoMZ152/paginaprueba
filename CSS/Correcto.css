@@ -1,0 +1,28 @@
+body {
+    background-image: url("../img/correcto.png");
+    background-repeat: no-repeat;  
+    background-size: cover;
+    width: 30%;
+}
+#volver {
+    margin-top: 600px;
+    background: rgb(91, 148, 214);
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    color: #fcf7f7;
+    font-size: 20px;
+    position: relative;
+    margin-left: 137%;
+    font-family: "Audiowide",
+    sans-serif;
+}
+
+#volver:hover {
+    background: rgb(27, 5, 87);
+    transition: .6s;
+}
+

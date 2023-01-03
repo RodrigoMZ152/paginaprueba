@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="../Control1_RMA/img/r.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Control1_RMA/CSS/Galeria.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <title>Galeria</title>
+</head>
+
+<body>
+    <center>
+        <div id="panel">
+            <div id="titulo1">
+                <p>Galería de imágenes</p>
+            </div>
+            <img id="imagen" src="../Control1_RMA/img/Galeria/aaliyah.png"><br><br><br>
+            <input type="button" id="anterior" value="Ver Anterior">
+            <input type="button" id="siguiente" value="Ver Siguiente">
+        </div><br>
+        <input onclick="window.location.href = '../Control1_RMA/Index.html'" type="button" value="Volver" id="volver">
+        <script>
+            //paso 1 --> crear el array de imagenes
+            var arrayImagenes = ["aaliyah.png", "aic.png", "avicii.png", "EM.jpg", "IM.png", "metallica.png", "MM.png", "PC.png", "PF.jpg", "poison.png", "tupac.png", "WK.png"]
+
+            //que imagen mostramos
+            var imagenActual = 0;
+
+            //paso 2: listeners de los botones de anterior y siguiente
+            document.getElementById("anterior").addEventListener("click", cambiarImagen);
+            document.getElementById("siguiente").addEventListener("click", cambiarImagen);
+
+            //paso 3: Definir la función
+            function cambiarImagen() {
+                var boton = this.id;
+                if (boton == 'anterior') {
+                    imagenActual--;
+                    if (imagenActual < 0) {
+                        imagenActual = arrayImagenes.length - 1;
+                    }
+                } else {
+                    imagenActual++;
+                    if (imagenActual == arrayImagenes.length) {
+                        imagenActual = 0;
+                    }
+                }
+                var imagenAMostrar = arrayImagenes[imagenActual];
+                document.getElementById('imagen').src = '../Control1_RMA/img/Galeria/' + imagenAMostrar;
+            }
+
+        </script>
+    </center>
+</body>
+
+</html>

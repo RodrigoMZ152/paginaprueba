@@ -1,0 +1,48 @@
+Body {
+    
+    font-family: "Audiowide",
+    sans-serif;
+    background-image: url("../img/wallpaper2.png");
+    width: 100%;
+
+}
+
+#button {
+    background: rgba(236, 58, 97, 0.67);
+    width: 15%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: #fcf7f7;
+    font-size: 20px;
+    font-family: "Audiowide", sans-serif;
+}
+
+#button:hover {
+    background: rgb(129, 174, 228);
+    transition: .6s;
+}
+
+#marquee1 {
+ 
+    font-size: 30px;
+    width: 50%;
+    position: inherit;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 1%;
+    font-family: "Audiowide",
+        sans-serif;
+}
+
+#titulo {
+    font-family: "Audiowide",
+        sans-serif;
+}
+
+table{
+    background-color: rgb(197, 227, 255);
+    width: 50%;
+}

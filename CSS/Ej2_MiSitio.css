@@ -1,0 +1,46 @@
+#C1{
+   margin-top: -210%;
+}
+
+#tituloEncuesta{
+    font-size: 15px;
+}
+#C2 {
+    margin-top: -100%;
+}
+
+#misitio{
+   height: 1px;
+   margin-bottom: 8%;
+}
+
+table{
+    background-color: #ffffff
+}
+
+body{
+    background-image: url("../img/wallpaper.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#volver{
+    background: rgba(218, 110, 110, 0.644);
+    width: 10%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    color: #fcf7f7;
+    font-size: 16px;
+
+}
+
+#volver:hover{
+background: rgb(59, 45, 44);
+transition: .6s;
+}

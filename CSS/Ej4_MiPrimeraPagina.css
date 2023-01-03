@@ -1,0 +1,72 @@
+h1{
+    color: rgb(255, 0, 0);
+}
+#fecha{
+    margin-left: 1350px;
+}
+body{
+    width: 99%;
+}
+#table1{
+    width: 60%;
+    background-color: yellow;
+    font-size: 22px;
+}
+img{
+   height: 150px; 
+   margin-top: 7px;
+   
+}
+#table2{
+    width: 58%;
+    color: greenyellow;
+    font-weight: bold;
+}
+#table3 {
+    width: 30%;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(71, 0, 214);
+}
+#nombres{
+    border-spacing: 5px 10px;
+}
+td {
+    
+    padding: 5px;
+}
+#table4{
+    width: 15%;
+    border-color: black;  
+    color: blue;
+    font-weight: bold;
+}
+
+body{
+    background-image: url("../img/wallpaper.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+button {
+    background: rgb(60, 72, 236);
+    width: 25%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 6px 15px;
+    border: none;
+    cursor: pointer;
+    color: #fffcfc;
+    font-size: 20px;
+    font-family: "Audiowide",
+        sans-serif;
+}
+
+button:hover {
+    background:rgb(129, 174, 228);
+    transition: .6s;
+}
+
+table{
+    background-color: white;
+}
